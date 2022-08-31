@@ -2,10 +2,11 @@ body{
  margin: 0; 
  padding: 0; 
  background: url(bg.jpg) no-repeat; 
- background-size:cover ;
+ background-size:100% ;
+ 
 }
 .box{
-    width:450px ;
+    width:650px ;
     background: rgb(0,0,0,0.8);
     padding: 5px;
     text-align: center;
@@ -24,8 +25,10 @@ body{
 }
 .box h1{
     font-size:40px ;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     font-weight: 100;
+    
+    margin-left: 10px;
 }
 .box p{
     text-align: justify;
